@@ -1,0 +1,70 @@
+
+ .today-time{
+    height:88px;
+    line-height: 88px;
+    text-indent: 71px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EDEDED;
+
+    .icon{
+        
+        width:31px;
+        height:31px;
+        background: red;
+        margin:0 20px;
+    }
+ }
+
+ .content{
+    ul{
+        padding:0 18px;
+        li{
+            padding:0px 26px 39px 55px;
+            border-bottom: 1px solid #EDEDED;
+
+            .time{
+                padding:32px 0px 24px 0px;
+                color: #A7A7A7;
+                font-size: 20px;
+                position: relative;
+
+                .icon{
+                    display: block;
+                    width:13px;
+                    height:15px;
+                    background: red;
+                    position: absolute;
+                    top:36px;
+                    left:-26px;
+                    background: url("../images/triangle.png") no-repeat center;
+                    background-size: cover;
+                }
+            }
+            .desc{
+                color:#434343;
+                font-size: 28px;
+            }
+        }
+    } 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

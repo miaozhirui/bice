@@ -1,0 +1,402 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+/*顶部导航区域*/
+body{
+    background: #F7F8FA;
+    padding-bottom:200px;
+    min-width:1200px;
+}
+.nav{
+    background: #fff;
+    width:100%;
+    height:68px;
+}
+.nav .content{
+    width:1200px;
+    margin:0 auto;
+    /*background: red;*/
+    height: 68px;
+    padding-right: 400px;
+}
+.nav .content .left{
+    width: 40%;
+    float: left;
+}
+.nav .content .left img{
+    width:265px;
+    height:68px;
+    display: inline-block;
+}
+.nav .content .right{
+    float: right;
+
+
+}
+
+.nav .content .right ul{
+    width:400px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav .content .right li{
+
+    list-style: none;
+    height:67px;
+    line-height: 67px;
+    text-align: right;
+    cursor: pointer;
+
+
+}
+.nav .content .right li a{
+    color:#222222;
+    text-decoration: none;
+}
+.nav .content .right li.current_category{
+
+    border-bottom: 2px solid #548FE9;
+}
+.nav .content .right li.current_category a{
+    color: #548FE9;
+    display: block;
+    height: 67px;
+}
+/*中间内容区域*/
+.main-content{
+
+    width:1200px;
+    margin:0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+ .layout{
+    width:800px;
+    float: left;
+    background: #fff;
+}
+ .reco{
+    width: 381px;
+    float: right;
+    background: #fff;
+}
+ .reco > .title{
+    height:68px;
+    line-height: 68px;
+    padding-left: 22px;
+    border-bottom: 1px solid #EDEDED;
+}
+ .reco ul li{
+    padding:22px;
+    overflow: hidden;
+    border-bottom: 1px solid#EDEDED;
+}
+ .reco ul li .left{
+    float: left;
+}
+
+ .reco ul li .left img{
+    width:118px;
+    height:74px;
+    background: #EDEDED;
+    display: block;
+}
+ .reco ul li .right{
+    float: right;
+    width:181px;
+}
+ .reco ul li .right .title{
+    font-size: 14px;
+    color:#222240;
+}
+
+ .reco ul li .time{
+
+    font-size: 14px;
+    color:#888;
+    margin-top: 15px;
+
+}
+
+
+  .date {
+    padding-left:26px;
+    line-height: 68px;
+    height: 68px;
+    color:#555555;
+    border-bottom: 1px solid #EDEDED;
+     background:#fff;
+
+}
+ ul{
+    background: #fff;
+}
+
+.kx, .zl{
+    float: left;
+    width: 800px;
+}
+.kx  ul {
+    padding:0 30px;
+}
+.kx  ul li{
+    padding:26px 0;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.kx  ul li .time{
+    color:#A7A7A7;
+    font-size: 14px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.kx  ul li .time .arrow {
+    width:6px;
+    height: 7px;
+    display: block;
+    position: absolute;
+    left:-13px;
+    top:5px;
+    background:url("/resource/build/images/triangle.png") no-repeat center;
+    background-size: contain;
+}
+
+
+.zl  .area-title{
+
+    font-size: 16px;
+    height: 38px;
+    line-height:38px;
+    text-indent:25px;
+}
+
+.zl  ul{
+    padding:0 25px;
+    background: #fff;
+
+
+}
+.zl  ul li{
+    overflow: hidden;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.zl  ul li:nth-last-child(1){
+
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+.zl  ul li .left{
+    width:80px;
+    float: left;
+}
+.zl  ul li .left img{
+    width:80px;
+    height:80px;
+    display: block;
+}
+.zl  ul li .left p{
+    text-align: center;
+    color:#888;
+
+}
+
+.zl ul li .right {
+    float: right;
+    width:650px;
+    /*height:90px;*/
+}
+
+.zl ul li .right .article-title{
+    color:#555;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.zl ul li .right .desc{
+    font-size: 15px;
+    color:#888;
+}
+
+.zl ul li .right .article-tag{
+    margin-top: 10px;
+}
+.zl  ul li .right .article-tag .tag-left {
+    float: left;
+}
+.zl   ul li .right .article-tag .tag-left .wt{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 15px;
+    color:#888;
+}
+.zl  ul li .right .article-tag .tag-left span{
+    font-size: 15px;
+    color:#888;
+    margin-right: 8px;
+}
+.zl ul li .right .article-tag .tag-right{
+
+    float: right;
+    font-size: 15px;
+    color:#888;
+}
+
+.zldetail{
+    background: #fff;
+    padding: 25px;
+}
+.zldetail .article img{
+    width:100%;
+}
+.zldetail  .title{
+    font-size: 24px;
+    font-weight: 800;
+}
+.zldetail  .tag {
+    padding:20px 0;
+    overflow: hidden;
+}
+.zldetail  .tag .left{
+
+    float: left;
+}
+.zldetail  .tag .left .author{
+    color:#397BFF;
+    margin-left:15px;
+
+}
+.zldetail  .tag .right{
+    float: right;
+}
+
+footer {
+    height:221px;
+    margin-top: 62px;
+}
+
+footer img{
+    width:1200px;
+    height:200px;
+    display: block;
+    margin:0 auto;
+}
+
+
+
+.pagination{
+
+    display: flex;
+    justify-content: center;
+}
+.pagination li{
+    border-bottom:0px !important;
+}
+.pagination li a, .pagination li span{
+    padding:6px 16px;
+    border:1px solid #e5e5e5;
+    margin-left:3px;
+}
+
+.pagination li a {
+    color:#292a32;
+}
+.pagination li.active a{
+    color:#fff;
+    background: #548FE9;
+    border:0px;
+}
+
+.share-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    font-size: 16px;
+}
+.share-container #share-2{
+    margin-left:15px;
+    margin-right: 15px;
+}
+
+.share-container .support{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    margin-left:10px;
+    background: url("../images/zan.png") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.relation-article{
+    margin-top:10px;
+ }
+.relation-article p{
+    margin-bottom:0px;
+}
+
+
+.share-container .has-support{
+    margin-left: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+/*评论区*/
+#comment{
+    width: 1200px;
+    margin:0 auto;
+    margin-top: 50px;
+
+    padding-right:400px;
+
+}
+#comment textarea{
+    width:100%;
+    height:120px;
+    background:#fff;
+    resize: none;
+    border:1px solid #548FE9;
+    padding:12px;
+    border-radius: 5px;
+}
+#comment .action{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#comment .action input[name='code'] {
+    margin-right: 5px;
+    text-align: center;
+    width: 120px;
+}
+#comment .action img{
+    width:80px;
+    height: 38px;
+    margin-right: 5px;
+    background: #fff;
+}
+
+#comment .user-comment{
+
+
+}
+#comment .user-comment {
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#comment .user-comment li{
+    font-size: 16px;
+    margin-bottom:10px;
+    padding:12px;
+}

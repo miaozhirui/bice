@@ -1,0 +1,38 @@
+.banner{
+    height:88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content{
+        width:400px;
+        height:88px;
+        background: url("../images/mobile/mobile_bice_logo.png") no-repeat center;
+        -webkit-background-size:contain;
+        background-size:contain;
+    }
+}
+
+.tab ul{
+    height:88px;
+    background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+    li{ 
+        height: 88px;
+        line-height: 88px;
+        padding:0 15px;
+
+        font-size: 26px;
+        color:#161616;
+
+        a{
+            color:#161616;
+        }
+    }
+    li.current_category{
+        border-bottom: 2px solid #0599F8;
+    }
+}
