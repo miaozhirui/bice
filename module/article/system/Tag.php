@@ -125,7 +125,7 @@ str;
         $php
             = <<<str
 <?php
-\$_category = \Db::table('web_category')->where('siteid',SITEID)->where('pid',0)->get();
+\$_category = \Db::table('web_category')->where('siteid',SITEID)->where('pid',0)->orderBy('orderby','DESC')->get();
 foreach(\$_category as \$field){
     //栏目链接
     if(empty(\$field['linkurl'])){

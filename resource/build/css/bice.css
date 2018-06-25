@@ -9,7 +9,6 @@ li{
 /*顶部导航区域*/
 body{
     background: #F7F8FA;
-    padding-bottom:200px;
     min-width:1200px;
 }
 .nav{
@@ -399,4 +398,47 @@ footer img{
     font-size: 16px;
     margin-bottom:10px;
     padding:12px;
+}
+
+#footer {
+    margin-top: 120px;
+    background: #262930;
+}
+#footer .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    width:1200px;
+    margin:0 auto;
+    font-size:14px;
+}
+#footer .content a,#footer .content  p{
+    display: inline-block;
+    color: #9B9B9B;
+    margin-right: 10px;
+    transition: all .3s ease;
+
+}
+#footer .content a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+#footer .content .right{
+}
+#footer .content .right{
+    width:300px;
+    /*height:150px;*/
+
+}
+#footer .content .right img{
+    width:150px;
+    height:150px;
+}
+#footer .content .right p{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    width:100%;
 }

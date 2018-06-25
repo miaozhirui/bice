@@ -67,6 +67,54 @@
 
 </div>
 <blade name="comment"></blade>
+<div id="footer">
+    <div class="content">
+        <div class="left">
+            <p>
+                友情链接：
+                <a target="_blank" href="http://www.btc38.com/">比特时代</a>
+                <a target="_blank" href="https://www.bitmain.com/">比特大陆</a>
+                <a target="_blank" href="https://www.exx.com/">EXX</a>
+                <a target="_blank" href="https://coldlar.com/">库神</a>
+                <a target="_blank" href="http://www.quintar.com/">金塔</a>
+                <a target="_blank" href="http://www.bitcoin86.com/">比特币资讯网</a>
+                <a target="_blank" href="http://www.btc798.com/">比特币之家</a>
+                <a target="_blank" href="http://www.bitett.com/">比特头条</a>
+                <a target="_blank" href="http://www.coingogo.com/">币源社区</a>
+                <a target="_blank" href="http://blocknews.io/">块讯</a>
+                <a target="_blank" href="http://www.bitecoin.com/">比特币中文网</a>
+                <a target="_blank" href="http://www.jinniu.cn/">金牛财经</a>
+                <a target="_blank" href="http://www.weilaicaijing.com/">未来财经</a>
+                <a target="_blank" href="http://www.8btc.com/">巴比特</a>
+                <a target="_blank" href="http://www.jinse.com/">金色财经</a>
+                <a target="_blank" href="https://coinmarketcap.com/">Coinmarketcap</a>
+                <a target="_blank" href="https://cointelegraph.com/">Cointelegraph</a>
+                <a target="_blank" href="https://www.coindesk.com/">Coindesk</a>
+                <a target="_blank" href="https://www.newsbtc.com/">Newsbtc</a>
+                <a target="_blank" href="https://thebitcoinnews.com/">Bitcoin news</a>
+                <a target="_blank" href="https://www.btctrade.im/ ">BTCTRADE.IM</a>
+                <a target="_blank" href="http://www.superbtc.org/ ">SBTC</a>
+                <a target="_blank" href="http://www.bcex.ca ">BCEX</a>
+                <a target="_blank" href="http://www.ebtcbank.com ">ebtcbank</a>
+                <a target="_blank" href="https://bitcoinworld.com">比特币世界</a>
+                <a target="_blank" href="http://chainb.com/">铅笔</a>
+                <a target="_blank" href="http://www.gongxiangcj.com/">共享财经</a>
+                <a target="_blank" href="http://www.chaoex.com/">炒客网</a>
+                <a target="_blank" href="https://www.wabi.com/">挖币网</a>
+                <a target="_blank" href="http://www.wanbizu.com/ ">玩币族</a>
+                <a target="_blank" href="http://www.block123.com/ ">Block123</a>
+                <a target="_blank" href="http://jgy.com ">九个亿财经 </a>
+                <a target="_blank" href="http://www.yuncaijing.com">云财经</a>
+                <a target="_blank" href="https://www.yyex.com">YYEX交易平台</a>
+            </p>
+        </div>
+        <div class="right">
+            <p>联系我们</p>
+            <img src="/resource/build/images/shichang.jpeg" alt="">
+        </div>
+    </div>
+
+</div>
 </body>
 <blade name="script"></blade>
 </html>

@@ -31,12 +31,17 @@ class Entry extends HdController
     public function __construct()
     {
         parent::__construct();
+
         $web = Web::where('siteid', SITEID)->first();
+
         if (empty($web)) {
             $this->_404();
         }
+
         $this->web      = $web->info();
+
         $this->template = ARTICLE_PATH;
+
         View::with('module.site', json_decode(Db::table('web')->pluck('site_info'), true));
     }
 
@@ -47,9 +52,12 @@ class Entry extends HdController
      */
     public function index()
     {
+
         $info = $this->web->info();
+
         return $this->view($this->template . '/index')
                     ->cache($info['site_info']['index_cache_expire']);
+
     }
 
     /**

@@ -1,6 +1,6 @@
 <extend file="resource/view/site"/>
 <block name="content">
-    <form method="post" class="form-horizontal" v-cloak id="form" @submit.prevent="submit($event)">
+    <form method="post" class="form-horizontal" v-cloak id="form" @submit.prevent="submit($event)" novalidate>
         <ul class="nav nav-tabs" role="tablist">
             <li><a href="{!! url('category.lists') !!}">栏目管理</a></li>
             <li class="active" v-if="field.cid"><a href="javascript:;">编辑栏目</a></li>

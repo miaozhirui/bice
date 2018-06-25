@@ -11,15 +11,15 @@ var px2remOptions = {
 
 gulp.task('less', function(){
 
-    gulp.src('./src/less/*.less')
+    gulp.src('./daichao/src/less/*.less')
         .pipe(less())
-        .pipe(px2rem(px2remOptions))
+        // .pipe(px2rem(px2remOptions))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('./build/css'))
+        .pipe(gulp.dest('./daichao/build/css'))
 })
 
 
 gulp.task('default', function(){
 
-    gulp.watch('./src/less/*.less', ['less']);
+    gulp.watch('./daichao/src/less/*.less', ['less']);
 })

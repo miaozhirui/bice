@@ -2,7 +2,7 @@
 <extend file="theme/bice/web/master"></extend>
 <block name="custom-content">
 
-    <div class="kx layout">
+    <div class="index layout">
         <?php
 
         $week = date('w');

@@ -32,11 +32,13 @@ abstract class HdController extends Controller
 
     public function __construct()
     {
+
         $this->siteid = siteid();
 
         if (empty($this->siteid)) {
             $this->_404('siteid Is Not Found');
         }
+
         $module         = new Modules();
         $this->config   = $module->getModuleConfig();
         $this->template = MODULE_TEMPLATE_PATH;
@@ -61,9 +63,13 @@ abstract class HdController extends Controller
             if ($web = Web::where('siteid', SITEID)->first()) {
                 $web      = $web->info();
                 $template = $web->getTemplate();
+
                 if ($web['site_info']['template_dir_part'] == true) {
                     $template .= (IS_MOBILE ? 'mobile' : 'web');
+                } else {
+                    $template .= 'web';
                 }
+
             }
             define('ARTICLE_PATH', $template);
             define('ARTICLE_URL', root_url().'/'.$template);
